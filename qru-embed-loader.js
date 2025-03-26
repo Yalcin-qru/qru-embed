@@ -3,7 +3,7 @@
   const thisScript = scripts[scripts.length - 1];
   const wallId = thisScript.getAttribute('data-wall');
   if (!wallId) {
-    console.error("QRU Embed: Keine wall ID gefunden (data-wall).");
+    console.error("qru Embed: Keine wall ID gefunden (data-wall).");
     return;
   }
 
