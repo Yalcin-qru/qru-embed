@@ -13,7 +13,7 @@
   resizerScript.onload = function() {
     const iframe = document.createElement('iframe');
     iframe.id = "qru-qontent-wall";
-    iframe.src = `https://myqru.de/embed?wall=${wallId}`;
+    iframe.src = `https://embed.myqru.de/?wall=${wallId}`;
     iframe.frameBorder = "0";
     iframe.scrolling = "no";
     iframe.width = "100%";
