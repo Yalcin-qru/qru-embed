@@ -18,6 +18,7 @@
     iframe.scrolling = "no";
     iframe.width = "100%";
     iframe.title = "qru-qontent-wall";
+    iframe.allowFullscreen = true;
     iframe.style.border = "none";
     iframe.style.minHeight = "500px";
     iframe.style.visibility = "hidden"; // Erst anzeigen, wenn geladen
