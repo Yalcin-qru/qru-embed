@@ -26,7 +26,7 @@
 
     // iframeResizer laden
     const resizerScript = document.createElement('script');
-    resizerScript.src = "https://cdn.jsdelivr.net/npm/iframe-resizer/js/iframeResizer.min.js";
+    resizerScript.src = "https://19480076e0a779cef1840e3f73d5ec65.cdn.bubble.io/f1737974580607x535025922703154600/iframeResizer.min.js";
 
     resizerScript.onload = function () {
       iFrameResize({
